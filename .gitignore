@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Patient / Medical Data (protecting DICOM and raw data from Git)
+*.dcm
+*.dicom
+*.raw
+*.nii
+*.nii.gz
+data/
+datasets/
+patients/
+
+# IDE
+.idea/
+.vscode/
+*.swp
