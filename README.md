@@ -19,7 +19,7 @@ pip install -r requirements.txt
 В блоке `if __name__ == "__main__":` в файле `implant_analyzer.py` укажите пути к вашим данным:
 - `PRE_DICOM_DIR` — папка с DICOM файлами предоперационного КТ.
 - `POST_DICOM_DIR` — папка с DICOM файлами постоперационного КТ.
-- `PLANNED_STLS` — список путей к STL-файлам запланированных имплантов, выгруженным из RealGUIDE.
+- `PLANNED_STLS` — список путей к STL-файлам запланированных имплантов.
 
 Запуск:
 ```bash
